@@ -4,7 +4,7 @@ select  distinct
 FL_DATE
 , Day(FL_DATE)
 ,DAYNAME(FL_DATE)
-
+,ORIGIN
 , case when DAYNAME(FL_DATE) in ('Sat','Sun')
 then 'Weekend'
 else 'Businessday'
