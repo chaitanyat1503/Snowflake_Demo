@@ -1,0 +1,9 @@
+version:  2
+
+sources:
+  - name: DATA_CHALLENGE
+    database: DATA_CHALLENGE
+    schema: CHALLENGE
+    tables:
+      - name: airports_codes
+      - name: flights
