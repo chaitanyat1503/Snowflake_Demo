@@ -5,5 +5,5 @@ sources:
     database: DATA_CHALLENGE
     schema: CHALLENGE
     tables:
-      - name: airports_codes
+      - name: airport_codes
       - name: flights
