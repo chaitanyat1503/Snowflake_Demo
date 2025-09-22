@@ -1,4 +1,4 @@
 select
 *
 from {{ source('DATA_CHALLENGE', 'flights') }}
-limit 10
+--limit 10;
